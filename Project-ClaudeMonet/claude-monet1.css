@@ -1,0 +1,258 @@
+*{margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: serif;
+  text-decoration: none;
+}
+header{
+  background-image: url('background.jpg');
+}
+.header{
+  font-size: 3.5em;
+  color:#3e1b2a;
+  padding:1%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.logo{
+  width: 50px;
+}
+nav{
+  background-color: rgba(255, 0, 0, 0.2);
+}
+input[type=text] {
+  float: right;
+  padding: 5px;
+  margin-top: 7px;
+  margin-right: 5px;
+  border: none;
+  font-size: 17px;
+}
+ul li { 
+  display: inline-block; 
+  padding: 0.5em 1.5em;
+}
+a{
+  color: inherit;
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+}
+li:hover{
+	background-color:#cd5d67;
+}
+hr{
+	padding: 0.1%;
+	background-color:#cd5d67;
+	border:none;
+}
+.sec1{
+	background-color:#f9c6c5;
+}
+.aside1 img{
+		float: right;
+		width: 23%;
+		margin-right: 5%;
+		margin-top: 2%;
+		border-radius: 50%;
+	  border:solid #cd5d67;
+}
+.title1{
+	font-size: 2.5em;
+	font-family: 'Dancing Script', cursive;
+	margin-left: 0.5em;
+}
+.p1{
+	width: 50%;
+  border-radius: 1em;
+ }
+.p11{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 1.3em;
+    width: 50%
+    margin:1em 1em;
+    padding:1em;
+    display: inline-block;
+    text-align: justify;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row ;
+  background-image: url('background.jpg');
+}
+
+.title-a{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  text-align: center;
+}
+.text-a{
+  font-family: 'Cormorant Upright', serif;
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 1em;
+}
+.title-b{
+  font-family: 'Dancing Script', cursive;
+  font-size:2.5em; 
+  text-align: center;
+}
+.text-b{
+  font-family: 'Cormorant Upright', serif;
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 1em;
+}
+ .aside1{
+  background-color: yellow;
+}
+.early-years{
+  border-radius: 100%;
+	width: 60%;
+  padding-left: 20%;
+}
+.giverny{
+  border-radius: 100%;
+  padding-left: 25%;
+	width: 50%;
+}
+#sec3 p{ 
+	float: left;
+  width: 50%;
+}
+ #video{
+ 	background-color:#f9c6c5 ;
+ }
+ iframe{
+ 	display: inline;
+ 	margin-bottom: 3%;
+ 	margin-left: 10%;
+ }
+ #video h1{
+ 	font-family:  'Dancing Script', cursive;
+  font-size: 2.5em;
+ 	margin-left: 0.3em ;
+}
+ #video p{
+ 	width: 51%;
+ 	font-family: 'Cormorant Upright', serif;
+  font-size: 1.3em;
+ 	padding-top: 0.1em;
+  margin-left: 0.7em;
+   text-align: justify;
+}
+.map{
+  background-color: #f9c6c5;
+}
+.map h1{
+  font-family:'Dancing Script', cursive;
+  font-size: 2.5em; 
+  padding-left:0.5em;
+}
+.map p{
+  font-family:'Cormorant Upright', serif;
+  font-size: 1.3em;
+  padding: 1em;
+  text-align: justify;
+}
+ .map iframe{
+  width: 100%;
+  margin-left:0; 
+}
+footer{
+	background-image: url('background.jpg');
+	clear: both;
+	color: white;
+	padding: 1%;
+	text-align: center;
+}
+.fa {
+  padding: 1%;
+  font-size: 1em;
+  width: 1%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+@media screen and (max-width: 500px){
+ .menu ul{
+   overflow: hidden;
+   background-color: #F9B3D1;
+ }
+ .menu a {
+  float: left;
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .p1{
+    width: 100%;
+  }
+  section aside img{
+    margin-bottom: 0;
+    border-radius: 5%;
+    
+  }
+  #video{
+    background-color: #f9c6c5;
+  }
+  #video p{
+    margin: 0;
+    width: 100%;
+    background-color:#f9c6c5; 
+
+  }
+  #video iframe{
+    float: right;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  footer .fa{
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  }
+}
+  @media screen and (max-width: 740px){
+   .menu a {
+    float: none;
+    width: 100%;
+  }
+  nav ul input{
+    width: 100%;
+  }
+}
