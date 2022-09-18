@@ -9,9 +9,9 @@ class Footer extends HTMLElement {
               <div class=" row-7 d-flex flex-row justify-content-around flex-grow-1 flex-wrap">
                   <div class="start-col"></div>
                   <div class="footer-text">
-                      <div>Home</div>
-                      <div>Biography </div>
-                      <div>Contacts</div>
+                      <div><a href = "home.html">Home</a></div>
+                      <div><a href = "biography.html">Biography</a> </div>
+                      <div><a href = "contact-page.html">Contacts</a></div>
                       <div id="footer-icons">
                           <a href="#" >
                               <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -46,7 +46,7 @@ class Footer extends HTMLElement {
                       </div>
                       <p id="copyright-text">	&#169; All rights reserved! </p>
                   </div>
-                  <div class = "footer-text" id="resource">Reference source : https://www.claudemonetgallery.org/</div>
+                  <div class = "footer-text" id="resource">Reference source :<a href= "https://www.claudemonetgallery.org/"> https://www.claudemonetgallery.org/</a></div>
                   <div class="middle-col"></div>
                   <div> </div>
                   <div class="end-col" id="footer-logo">
