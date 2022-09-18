@@ -162,6 +162,13 @@ body {
   z-index:2;
   left: 50%;
 }
+
+@media screen and (min-width: 1600px){
+    .row-divider{
+      display: hidden;
+    }
+}
+
 @media screen and (max-width: 1200px){
   .row-2,.row-3,.row-4,.row-5,.row-6{
     width: auto;

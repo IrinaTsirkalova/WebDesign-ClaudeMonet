@@ -69,4 +69,7 @@ footer {
     .footer-text,#footer-logo{
       margin-left: 30px;
     }
+    #resource{
+      margin-right: 0;
+    }
   }

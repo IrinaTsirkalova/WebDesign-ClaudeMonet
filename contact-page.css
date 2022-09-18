@@ -91,3 +91,54 @@
   border-color:#ac9a9a;
   color: white;
 }
+
+@media screen and (max-width: 1450px){
+  .c-row-2{
+    flex-wrap: wrap;
+    width: auto;
+    flex-direction: column;
+    padding-right: 20%;
+  }
+  
+  #cf-img{
+   width: 100% !important;
+   height: 100px;
+   content: url("resources/cf-img-resized.jpg");
+  }
+  .contact-form-inputs{
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width:1095px) {
+  .form-group {
+    margin-right:30px !important;
+  }
+}
+@media screen and (max-width: 1080px){
+  .c-row-2{
+    width: 80%;
+    height: auto;
+  }
+  #cf-img{
+    width: 1300px !important;
+  }
+  .field{
+    width: 100%;
+  }
+  #textArea{
+   width: 351px;;
+  }
+  #cf-btn{
+    margin-left: 70px;;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .c-form-input{
+    width: 250px;
+  }
+  #textArea{
+    width: 250px;;
+   }
+}

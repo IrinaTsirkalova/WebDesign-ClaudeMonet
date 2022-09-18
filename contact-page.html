@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Claude Monet</title>
 
+	<!--JS Files-->
 	<script src="./header.js" type="text/javascript" defer></script>
 	<script src="./footer.js" type="text/javascript" defer></script>
 
@@ -37,36 +38,39 @@
 
 	<!--Contact form-->
 	<div class="main-content-contact-form">
-
+		
 		<div class="c-row-2 d-flex contact-form">
 			<img src="resources/cf-img.png" id="cf-img">
 			<div  class="contact-form-inputs">
+				<form method="post" class="cf">
 				<label class="label" id="contact-us-label">Contact us</label>
 				<div class="form-group">
-					<div id="firstNameGroup">
+					<div id="firstNameGroup" class="field">
 						<label for="inputFirstName" class="contact-form-labels">First name</label>
-				  		<input type="text" class="form-control form-input c-form-input" id="inputFirstName" placeholder="Enter your first name">
+				  		<input type="text" class="form-control form-input c-form-input" id="inputFirstName" placeholder="Enter your first name" required>
 					</div>
-					<div id="lastNameGroup">
+					<div id="lastNameGroup" class="field">
 						<label for="inputLastName" class="contact-form-labels">Last name</label>
-						<input type="text" class="form-control form-input c-form-input" id="inputLastName" placeholder="Enter your last name">
+						<input type="text" class="form-control form-input c-form-input" id="inputLastName" placeholder="Enter your last name" required>
 					</div>
 				</div>
-				<form method="post">
-				<div class="form-group">
+				
+				<div class="form-group" class="field">
 					<label for="inputEmail" class="contact-form-labels">Email</label>
-					<input type="email" class="form-control form-input c-form-input" id="inputEmail" placeholder="Enter your email address">
+					<input type="email" class="form-control form-input c-form-input" id="inputEmail" placeholder="Enter your email address" required>
 				</div>
 
-				<div class="form-group">
+				<div class="form-group field" id="textArea">
 					<label for="inputHelpTextArea" class="contact-form-labels">How can we help ?</label>
-					<textarea type="text" class="form-control form-input c-form-input" id="inputHelpTextArea"></textarea>
+					<textarea type="text" class="form-control form-input c-form-input" id="inputHelpTextArea" 
+					 oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' required></textarea>
 				</div>
-				<button type="submit" class="btn btn-submit">Submit</button>
+				<button type="submit" class="btn btn-submit" id="cf-btn">Submit</button>
 				
 			  </form>
 			</div>
 		</div>
+
 	</div>
 		
 	
