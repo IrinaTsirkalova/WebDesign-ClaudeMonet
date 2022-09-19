@@ -10,7 +10,14 @@
     
     - Contact page: 600px, 1080px, 1095px, 1450px;
     
+**Technologies used:**
 
+    - Bootstrap;
+    
+    - Javascript;
+    
+    - CSS Media Rule
+    
 **Figma prototype link:** [click here](https://www.figma.com/proto/tfYdZDJ33rtL9CJBhuWImP/Claude-Monet?node-id=2%3A21&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A21)
 
 **Screenshots for all the pages visualized on a 1519.200x343.200 screen:**
