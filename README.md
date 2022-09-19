@@ -1,9 +1,9 @@
 **Responsive web design of an information website about Claude Monet. It's consisted of 3 pages - Home, Biography, and Contacts, and has the following breakpoints:**
-    - Header - 700px, 1080px;
-    - Footer - 700px, 1200px;
-  	- Home page - 700px, 1200px, 1600px, 1800px;
-    - Biography page - 700px, 1288px, 1385px;
-    - Contact page - 600px, 1080px, 1095px, 1450px;
+    - Header: 700px, 1080px;
+    - Footer: 700px, 1200px;
+  	- Home page: 700px, 1200px, 1600px, 1800px;
+    - Biography page: 700px, 1288px, 1385px;
+    - Contact page: 600px, 1080px, 1095px, 1450px;
     
 
 **Figma prototype link:** [Click here](https://www.figma.com/proto/tfYdZDJ33rtL9CJBhuWImP/Claude-Monet?node-id=2%3A21&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A21)
