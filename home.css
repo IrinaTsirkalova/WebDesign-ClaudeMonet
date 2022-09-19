@@ -234,6 +234,15 @@ body {
   }
 }
 
+@media screen and (min-width: 1800px){
+.row-divider{
+  visibility: hidden;
+}
+#label-4{
+  width: 100%;
+  text-align: left;
+}
+}
 @media screen and (max-width: 1800px){
   #text-6,#text-5,#text-4{
     margin-left: 30px;
